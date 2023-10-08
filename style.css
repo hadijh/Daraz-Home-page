@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navber{
+    color: black;
+    width: 1450px;
+    height: 25px;
+    text-decoration: none;
+    background-color: rgb(234, 232, 232);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+a{
+    color: black;
+    font-size: 0.7rem;
+    text-decoration: none;
+    
+}
+.navber a:hover{
+    text-decoration: none;
+    color: rgb(255, 106, 0);
+}
+.nav1{
+    margin-left: 250px;
+}
+.nav2{
+    margin-right: 100px;
+}
+.nav3{
+    width: 1450px;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+}
+.nav3 img{
+    width: 135px;
+    height: 40px;
+    margin-left: 120px;
+
+}
+input{
+    width: 650px;
+    height: 45px;
+    color: black;
+    background-color: rgb(241, 240, 240);
+    border: none;
+    margin-left: 50px;
+}
+.box1{
+    width: 47px;
+    height: 47px;
+    background-color: rgb(255, 123, 0);
+    font-size: 1.7rem;
+    text-align: center;
+    
+    
+}
+i{
+    margin-top: 12px;
+    color: white;
+}
+.box2 i{
+    height: 45px;
+    width: 45px;
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+    margin-left: 40px;
+}   
+.img-d img{
+    width: 190px;
+    height: 45px;
+    margin-left: -1px;
+}
+
+/** body **/
+.hero-section{
+    width: 1450px;
+    height: 350px;
+}
+.hero-section1{
+    background-image: url("d5.jpg"); background-size: cover;
+    width: 990px;
+    height: 350px;
+    margin-left: 300px;
+    margin-top: 15px;
+    background-color: red;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 350px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    font-size: 3rem;
+    width: 220px;
+    margin-top: -350px;
+    margin-left: 80px;
+    
+}
+
+
+ul{
+    display: block;
+   font-size: 1.5rem;
+   color: black;
+   background-color: white;
+   text-decoration: none;
+}
+
+ul:hover{
+    color:rgb(255, 106, 0); 
+}
+
+/** shop **/
+
+.shop-section{
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(236, 236, 236);
+
+}
+.box{
+    height: 300px;
+    width: 20%;
+    background-color: white;
+    margin-top: 10px;
+}
+.box-img{
+    height: 179px;
+    width: 189px;
+    background-size: cover;
+
+}
+.box p{
+    font-size: 0.85rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.price{
+    color: red;
+    font-size: 3rem;
+    font-weight: 300%;
+}
+
+
+
+
+
+
+
+
+  
